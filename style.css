@@ -199,12 +199,15 @@ p.memory {
   height: 460px;
   left: 720px;
 }
+.ftext {
+  position: relative;
+}
 .r1 {
   font-size: 20px;
   position: absolute;
   z-index: 3;
   left: 36.5%;
-  top: 2160px;
+  top: 1255px;
   color: white;
   text-align: center;
 }
@@ -212,8 +215,8 @@ p.memory {
   font-size: 18px;
   position: absolute;
   z-index: 3;
-  left: 37%;
-  top: 2295px;
+  left: 36.8%;
+  top: 1358px;
   color: white;
   line-height: 2;
   text-align: center;
@@ -223,7 +226,7 @@ p.memory {
   position: absolute;
   z-index: 3;
   left: 36%;
-  top: 2410px;
+  top: 1460px;
   color: #eae0ca;
   padding: 9px 12px;
   border-style: solid;
