@@ -1,0 +1,291 @@
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+li {
+  float: left;
+  list-style: none;
+  margin: 20px;
+  height: 8px;
+}
+.events {
+  float: left;
+  padding-left: 44px;
+}
+
+.menu {
+  float: right;
+  padding-right: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+a.goldcolor {
+  color: #b9a269;
+}
+
+a.gold {
+  color: #8f805d;
+}
+a.other {
+  color: black;
+}
+.myclass {
+  background-image: url(./image3.png);
+  width: 1239px;
+  height: 920px;
+  background-attachment: fixed;
+  background-size: 1239px;
+  position: absolute;
+  /* background-position: left; */
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: fixed;
+  z-index: 4;
+  background-color: white;
+  width: 1239px;
+  height: 80px;
+  top: 0px;
+  /* border-top: #901c80; */
+}
+
+p.memory {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 58px;
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: 28%;
+  text-align: center;
+  margin: 33px;
+  line-height: 140%;
+}
+
+.middle {
+  position: absolute;
+  top: 880px;
+  background-color: white;
+  z-index: 3;
+  width: 1239px;
+  height: 670px;
+}
+.section1 {
+  position: relative;
+  top: 62px;
+  margin-right: 20px;
+  margin-left: 32px;
+  margin-bottom: 50px;
+}
+.a1 {
+  position: relative;
+  height: 560px;
+}
+.a2 {
+  position: absolute;
+  height: 560px;
+  width: 740px;
+}
+
+.t1 {
+  font-size: 32px;
+  position: absolute;
+  z-index: 3;
+  left: 9.5%;
+  top: 24%;
+  color: white;
+}
+.t2 {
+  font-size: 24px;
+  position: absolute;
+  z-index: 4;
+  left: 10%;
+  top: 48%;
+  color: #eae0ca;
+  line-height: 2;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.t3 {
+  font-size: 20px;
+  position: absolute;
+  z-index: 5;
+  left: 9%;
+  top: 73%;
+  color: #eae0ca;
+  padding: 9px 67px;
+  border-style: solid;
+  border-color: azure;
+  border-width: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.next {
+  position: relative;
+  top: 1550px;
+  width: 1239px;
+  height: 400px;
+  text-align: center;
+}
+.symbol {
+  font-family: "Elephant", sans-serif;
+  font-size: 64px;
+}
+.content {
+  position: relative;
+  bottom: 30px;
+  font-size: 24px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+.tgold {
+  color: #af9453;
+}
+
+.left,
+.right {
+  color: #af9453;
+  font-size: 36px;
+  font-weight: 100;
+}
+.left {
+  position: relative;
+  bottom: 170px;
+  right: 490px;
+}
+.right {
+  position: relative;
+  bottom: 254px;
+  left: 550px;
+}
+
+/* .bkg {
+  background-image: url("./image2.png");
+  position: absolute;
+  background-attachment: fixed;
+  width: 1240px;
+  height: 1180px;
+  top: 2000px;
+  left: -50px;
+  background-size: 1280px 1140px;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin: 0px 90px;
+} */
+
+.section2 {
+  position: relative;
+  top: 1550px;
+}
+.wedding {
+  background-image: url("./image2.png");
+  position: absolute;
+  background-attachment: fixed;
+  width: 1179px;
+  height: 700px;
+  background-size: 1179px auto;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  margin: 10px 30px;
+  left: 15px;
+}
+.flower {
+  display: block;
+  position: relative;
+  top: 1630px;
+  height: 460px;
+  left: 720px;
+}
+.r1 {
+  font-size: 20px;
+  position: absolute;
+  z-index: 3;
+  left: 58%;
+  top: 2160px;
+  color: white;
+  text-align: center;
+}
+.r2 {
+  font-size: 18px;
+  position: absolute;
+  z-index: 3;
+  left: 58.5%;
+  top: 2295px;
+  color: white;
+  line-height: 2;
+  text-align: center;
+}
+.r3 {
+  font-size: 24px;
+  position: absolute;
+  z-index: 3;
+  left: 57%;
+  top: 2410px;
+  color: #eae0ca;
+  padding: 9px 12px;
+  border-style: solid;
+  border-color: azure;
+  border-width: 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+.last {
+  position: relative;
+  color: white;
+  width: 1279px;
+  height: 330px;
+  background-color: white;
+}
+.box {
+  position: absolute;
+  top: 1910px;
+  width: 1133px;
+  height: 220px;
+  background-color: #af9453;
+  left: 43px;
+  z-index: 2;
+}
+.info {
+  position: absolute;
+  top: 58px;
+  left: 80px;
+
+  /* display: inline-flex; */
+  /* display: flex; */
+  /* left: 50px; */
+  /* outline: 0;
+  vertical-align: baseline;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+
+  z-index: 3;
+  column-count: 3;
+  column-gap: 36px;
+  column-rule: 3px outset white;
+  font-size: 14px;
+  color: white;
+  margin-left: 22px;
+}
+.consult {
+  position: absolute;
+  font-size: 18px;
+  top: 82px;
+  left: 63%;
+  color: whitesmoke;
+  padding: 9px 12px;
+  border-style: solid;
+  border-color: azure;
+  border-width: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+}
