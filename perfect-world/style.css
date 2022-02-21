@@ -19,11 +19,11 @@ header {
   position: relative;
 }
 .hborder {
-  width: 1920px;
-  position: fixed;
-  border-color: #903f4a;
-  border-width: 3px;
   border-bottom: solid;
+  border-color: #903f4a;
+  width: 1920px;
+  border-width: 4px;
+  position: fixed;
 }
 
 /* navigation menu css setting */
